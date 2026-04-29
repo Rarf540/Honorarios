@@ -1,0 +1,93 @@
+<h2>Sección de Funcionalidades</h2>
+<p class="subtitle">¿Cómo presentamos los 8 módulos de Anrofi? Selecciona tu preferido.</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0A0A0F;padding:20px;min-height:240px;border-radius:8px 8px 0 0">
+      <div style="color:#C8A84B;font-size:8px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;text-align:center;margin-bottom:4px">Todo lo que necesitas</div>
+      <div style="color:#fff;font-size:13px;font-weight:700;text-align:center;margin-bottom:14px">Una plataforma, ocho módulos</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+        <div style="background:#16161F;border:1px solid #2a2a3a;border-radius:7px;padding:10px">
+          <div style="font-size:14px;margin-bottom:4px">📐</div>
+          <div style="color:#C8A84B;font-size:9px;font-weight:600;margin-bottom:3px">Honorarios</div>
+          <div style="color:#555;font-size:8px;line-height:1.4">Calcula tarifas en UF por servicio y m²</div>
+        </div>
+        <div style="background:#16161F;border:1px solid #2a2a3a;border-radius:7px;padding:10px">
+          <div style="font-size:14px;margin-bottom:4px">📋</div>
+          <div style="color:#C8A84B;font-size:9px;font-weight:600;margin-bottom:3px">Presupuestos</div>
+          <div style="color:#555;font-size:8px;line-height:1.4">Crea y edita presupuestos profesionales</div>
+        </div>
+        <div style="background:#16161F;border:1px solid #2a2a3a;border-radius:7px;padding:10px">
+          <div style="font-size:14px;margin-bottom:4px">🗂️</div>
+          <div style="color:#C8A84B;font-size:9px;font-weight:600;margin-bottom:3px">Proyectos</div>
+          <div style="color:#555;font-size:8px;line-height:1.4">Control de avance y etapas</div>
+        </div>
+        <div style="background:#16161F;border:1px solid #2a2a3a;border-radius:7px;padding:10px">
+          <div style="font-size:14px;margin-bottom:4px">🤖</div>
+          <div style="color:#C8A84B;font-size:9px;font-weight:600;margin-bottom:3px">Asistente IA</div>
+          <div style="color:#555;font-size:8px;line-height:1.4">Busca ofertas y productos nuevos</div>
+        </div>
+      </div>
+      <div style="color:#555;font-size:8px;text-align:center;margin-top:8px">+ PDF · Finanzas · Clientes · Escaneo</div>
+    </div>
+    <div class="card-body">
+      <h3>A — Grid de tarjetas 2×4</h3>
+      <p>Vista compacta de todos los módulos. Rápido de escanear. Ideal para ver el alcance completo de un vistazo.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0A0A0F;padding:20px;min-height:240px;border-radius:8px 8px 0 0;display:flex;flex-direction:column;gap:8px">
+      <div style="color:#fff;font-size:13px;font-weight:700;text-align:center;margin-bottom:6px">Cada módulo, en detalle</div>
+      <div style="display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start">
+        <div style="background:#C8A84B;border-radius:6px;padding:7px;font-size:13px;margin-top:2px">📐</div>
+        <div>
+          <div style="color:#C8A84B;font-size:10px;font-weight:600;margin-bottom:2px">Calculadora de Honorarios</div>
+          <div style="color:#555;font-size:8px;line-height:1.5">Define tarifas en UF por m², calcula automáticamente recepción y levantamiento como factor del permiso de edificación. Con rangos de referencia del mercado.</div>
+        </div>
+      </div>
+      <div style="height:1px;background:#1e1e28"></div>
+      <div style="display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:start;opacity:0.5">
+        <div style="background:#2a2a3a;border-radius:6px;padding:7px;font-size:13px;margin-top:2px">📋</div>
+        <div>
+          <div style="color:#888;font-size:10px;font-weight:600;margin-bottom:2px">Presupuestos profesionales</div>
+          <div style="color:#444;font-size:8px;line-height:1.5">Crea, edita y exporta presupuestos con materiales, mano de obra y renders.</div>
+        </div>
+      </div>
+      <div style="color:#555;font-size:8px;text-align:center">↓ scroll para ver más módulos</div>
+    </div>
+    <div class="card-body">
+      <h3>B — Lista vertical con detalle</h3>
+      <p>Un módulo a la vez con descripción completa. Más largo pero explica el valor de cada función en profundidad.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#0A0A0F;padding:20px;min-height:240px;border-radius:8px 8px 0 0;display:flex;flex-direction:column;gap:10px">
+      <div style="color:#fff;font-size:13px;font-weight:700;text-align:center;margin-bottom:2px">Explora los módulos</div>
+      <div style="display:flex;gap:6px;flex-wrap:wrap;justify-content:center">
+        <div style="background:#C8A84B;color:#0A0A0F;font-size:8px;font-weight:700;padding:4px 10px;border-radius:20px">Honorarios</div>
+        <div style="border:1px solid #333;color:#666;font-size:8px;padding:4px 10px;border-radius:20px">Presupuestos</div>
+        <div style="border:1px solid #333;color:#666;font-size:8px;padding:4px 10px;border-radius:20px">Proyectos</div>
+        <div style="border:1px solid #333;color:#666;font-size:8px;padding:4px 10px;border-radius:20px">Finanzas</div>
+        <div style="border:1px solid #333;color:#666;font-size:8px;padding:4px 10px;border-radius:20px">IA</div>
+        <div style="border:1px solid #333;color:#666;font-size:8px;padding:4px 10px;border-radius:20px">Escaneo</div>
+      </div>
+      <div style="background:#16161F;border:1px solid #C8A84B;border-radius:8px;padding:14px;flex:1;display:flex;flex-direction:column;gap:6px">
+        <div style="color:#C8A84B;font-size:10px;font-weight:700">📐 Calculadora de Honorarios</div>
+        <div style="color:#888;font-size:8px;line-height:1.5">Define tus tarifas en UF por m² para cada servicio. Recepción y levantamiento se calculan automáticamente como factor del permiso de edificación.</div>
+        <div style="display:flex;gap:6px;margin-top:4px">
+          <div style="background:#0A0A0F;border-radius:4px;padding:4px 8px;font-size:7px;color:#C8A84B;border:1px solid #2a2a3a">✓ 5 servicios</div>
+          <div style="background:#0A0A0F;border-radius:4px;padding:4px 8px;font-size:7px;color:#C8A84B;border:1px solid #2a2a3a">✓ UF + CLP</div>
+          <div style="background:#0A0A0F;border-radius:4px;padding:4px 8px;font-size:7px;color:#C8A84B;border:1px solid #2a2a3a">✓ Renders</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Tabs interactivos</h3>
+      <p>El visitante hace clic en cada módulo y ve su descripción. Compacto pero detallado. Más interactivo.</p>
+    </div>
+  </div>
+
+</div>
